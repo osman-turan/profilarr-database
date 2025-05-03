@@ -6,6 +6,7 @@ on:
       - 1080p-Encode
 
 jobs:
+  if: false # Disable upstream jobs
   notify:
     runs-on: ubuntu-latest
     steps:

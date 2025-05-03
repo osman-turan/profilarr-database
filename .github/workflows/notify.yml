@@ -4,6 +4,7 @@ on:
     branches:
       - "stable"
 jobs:
+  if: false # Disable upstream jobs
   call-notify-commit:
     uses: Dictionarry-Hub/parrot/.github/workflows/notify-commit.yml@v1
     secrets:
