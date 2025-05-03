@@ -1,0 +1,4 @@
+[submodule "trash-guides"]
+	path = trash-guides
+	url = https://github.com/TRaSH-Guides/Guides.git
+	branch = master
